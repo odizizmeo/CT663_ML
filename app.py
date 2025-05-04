@@ -179,4 +179,4 @@ def predict():
 if __name__ == '__main__':
     print("กำลังเริ่ม Flask development server...")
     # **สำคัญ: ตั้งค่า debug=False สำหรับการใช้งานจริง (Production)!**
-    app.run(host='0.0.0.0', port=5000, debug=True) # หรือเปลี่ยน port ถ้า 5000 ไม่ว่าง
+    app.run(host='0.0.0.0', port=5001, debug=True) # หรือเปลี่ยน port ถ้า 5000 ไม่ว่าง
